@@ -1,0 +1,59 @@
+.greenbg
+{
+	background: #4caf86d6;
+	height: 80px;
+	padding-left: 524px;
+}
+.yellowbg1
+{
+	background:yellow;
+	height: 250px;
+}
+
+.yellowbg2
+{
+	background: yellow;
+	height:250px;
+}
+.heading
+{
+	margin-left: 441px;
+}
+.forspace
+{
+	height: 100px;
+	background:#9e9e9e7a;
+}
+.leftside {
+            background: red;
+            color: white;
+            padding: 10px;
+            display: inline-block;
+            margin: 5px;
+        }
+        .rightside {
+            background: red;
+            padding: 10px;
+            color:white;
+            display: inline-block;
+            margin: 5px;
+        }
+        #box {
+            margin-left: 350px;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            padding: 10px;
+            align-items: right;
+            width: 500px;
+        }
+        .right {
+            text-align: right;
+        }
+        #input {
+            width: 100%;
+            padding: 7px;
+            box-sizing: border-box;
+        }
+        #hidden{
+            display: none;
+        }
