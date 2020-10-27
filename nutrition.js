@@ -6,12 +6,12 @@ right = document.getElementById('right')
 index = 0
 
 products = {
-"apple":{cost:320,vitamins:"A=0,005"},
-"orange":{cost:100,vitamins:"B1=0,02"},
-"pineapple":{cost:200,vitamins:"B2=0,01"},
-"blackberry":{cost:220,vitamins:"B6=0,05"},
-"banana":{cost:30,vitamins:"C=5000"},
-"grapes":{cost:150,vitamins:"FLATE=0,003"},
+"apple":{cost:"100 per dozen",vitamins:"A,B1,B2,B6,C"},
+"orange":{cost:"50 per dozen",vitamins:"C"},
+"pineapple":{cost:"300 per dozen",vitamins:"A,B6,E,K"},
+"blackberry":{cost:"100 per dozen",vitamins:"C,K"},
+"banana":{cost:"50 per dozen",vitamins:"B6,B12"},
+"grapes":{cost:"70 per kilo",vitamins:"C"},
 }
 
 
@@ -40,8 +40,8 @@ function processinput(input){
 
 function output(input) {
 	result = input.match(/(how)|(\w+)/g)
-	if(result.includes("price")){
-		return recentproduct.price
+	if(result.includes("cost")){
+		return recentproduct.cost
 	}
 	if(result.includes("vitamins")){
 		return recentproduct.vitamins
